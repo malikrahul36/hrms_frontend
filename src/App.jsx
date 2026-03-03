@@ -7,7 +7,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API = "https://hrms-backend-g8hj.onrender.com";
 
 // ─── Utility fetch wrapper ────────────────────────────────────────────────────
 async function apiFetch(path, options = {}) {
